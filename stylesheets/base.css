@@ -1,0 +1,128 @@
+html, body,
+    .container,
+    .cbp-fbscroller,
+    .cbp-fbscroller section {
+        height: 100%;
+    }
+
+html, body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+/* this is the location of the nav bar on the document*/
+    .cbp-fbscroller > nav {
+    position: fixed;
+    z-index: 19999;
+    left: 0px;
+    top: 11px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: black;
+    width: 100%;
+}
+
+/* this is the how the nav is displayed, vertically */
+.cbp-fbscroller > nav a {
+    /*display: block;
+    position: relative;
+    color: transparent;
+    height: 50px;*/
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 18px;
+}
+
+/* this has changed each anchor into a circle (this can be deleted)*/
+/*.cbp-fbscroller > nav a:after {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 4px solid black;
+}*/
+
+/* this affects the hover effect of the anchors*/
+.cbp-fbscroller > nav a:hover {
+    color: red;
+}
+
+/* this is what will affect the highlighted anchor */
+.cbp-fbscroller > nav a.cbp-fbcurrent {
+    background: red;
+}
+
+/* background-attachment does the trick */
+.cbp-fbscroller section {
+    position: relative;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+#fbsection1 {
+  background: url(../images/name_in_script.jpg) no-repeat center center fixed;
+
+}
+
+#fbsection1 h1 {
+    font-family: futura;
+    font-size: 300%;
+    color: #ff4040;
+}
+
+
+#fbsection2 {
+
+}
+
+#fbsection2 img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3em;
+  /*  -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius:50%*/
+}
+
+
+#content {
+    margin-top: 3em;
+}
+
+#name {
+    text-align: center;
+}
+
+#fbsection3 {
+    text-align: center;
+}
+
+.project img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+     -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius:50%
+}
+
+.project img:hover {
+    filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+-o-filter: grayscale(100%);
+-ms-filter: grayscale(100%);
+}
