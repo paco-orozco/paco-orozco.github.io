@@ -1,9 +1,10 @@
 html, body,
     .container,
     .cbp-fbscroller,
-    .cbp-fbscroller section {
+    .cbp-fbscroller, #fbsection1, #fbsection2 {
         height: 100%;
     }
+
 
 html, body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -20,6 +21,7 @@ html, body {
     transform: translateY(-50%);
     background-color: black;
     width: 100%;
+    padding: 4px;
 }
 
 /* this is the how the nav is displayed, vertically */
@@ -32,7 +34,8 @@ html, body {
     text-decoration: none;
     margin-top: 5px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    padding: 4px;
 }
 
 /* this has changed each anchor into a circle (this can be deleted)*/
@@ -47,12 +50,13 @@ html, body {
 
 /* this affects the hover effect of the anchors*/
 .cbp-fbscroller > nav a:hover {
-    color: red;
+   color: #e4e4e4;
 }
 
 /* this is what will affect the highlighted anchor */
 .cbp-fbscroller > nav a.cbp-fbcurrent {
-    background: red;
+    background: #545454;
+    color: #e4e4e4;
 }
 
 /* background-attachment does the trick */
@@ -80,20 +84,31 @@ html, body {
 
 
 #fbsection2 {
+    background: url(../images/sec_2_back.jpg) no-repeat center center fixed;
 
 }
 
-#fbsection2 img {
-    display: block;
-    margin: 0 auto;
-    margin-top: 3em;
-  /*  -webkit-border-radius:50%;
-    -moz-border-radius:50%;
-    -ms-border-radius:50%;
-    -o-border-radius:50%;
-    border-radius:50%*/
+
+#fbsection2 {
+    color: white;
+    text-align: left;
 }
 
+#fbsection2 h1 {
+    text-align: center;
+    font-family: Garamond;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 175%;
+    margin-bottom: 12px;
+}
+
+#fbsection2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
 #content {
     margin-top: 3em;
@@ -107,6 +122,21 @@ html, body {
     text-align: center;
 }
 
+.project {
+    margin-bottom: 36px;
+}
+
+.project h1 {
+    font-family: Garamond;
+    font-weight: normal;
+    font-size: 175%;
+    margin-bottom: 12px;
+
+}
+
+.project p {
+    text-align: left;
+}
 .project img {
     display: block;
     margin: 0 auto;
