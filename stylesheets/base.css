@@ -157,6 +157,4 @@ html, body {
     -ms-filter: grayscale(100%);
 }
 
-#construction:hover {
-    background-image: url(../images/construction.png)
-}
+
