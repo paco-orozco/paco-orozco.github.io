@@ -129,3 +129,8 @@
   form input[type="text"]{display:block;height:20px;width:80%;padding:5px 8px;border:none;margin:5px;}
   }
 
+  img {
+    display: block;
+    margin: auto;
+  }
+
