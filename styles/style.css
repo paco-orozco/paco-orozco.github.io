@@ -44,10 +44,13 @@ header p {
   -o-background-size: cover;
   background-size: cover;
   padding: 48px 0px;
-  margin: 0px -200px;
+  margin: 0px -500px;
+}
+#banner-inner {
+  margin: 0px 500px;
 }
 #banner-legend {
-  margin: 0px 200px 0px 0px;
+  /*margin: 0px 500px 0px 0px;*/
   background-color: rgba(0,0,0,.50);
   padding: 24px 22px;
 }
@@ -56,7 +59,7 @@ header p {
     #banner {
       margin: 0px 0px !important;
     }
-    #banner-legend {
+    #banner-inner {
       margin: 0px 0px !important;
     }
   }
@@ -64,18 +67,18 @@ header p {
     #banner {
       margin: 0px 0px !important;
     }
-    #banner-legend {
+    #banner-inner {
       margin: 0px 0px !important;
     }
   }
-  @media (min-width: 992px) and (max-width: 1199px) {
+  /*@media (min-width: 992px) and (max-width: 1199px) {
     #banner {
       margin: 0px 0px !important;
     }
     #banner-legend {
       margin: 0px 0px !important;
     }
-  }
+  }*/
 /* ----------------- / responsive form ------------------ */
 #banner-legend h1 {
   color: #fff;
@@ -179,10 +182,10 @@ input[type=text] {
 #slider {
   background-color: #e5e5e5;
   padding: 48px 0;
-  margin: 0px -200px;
+  margin: 0px -500px;
 }
 #slider-inner {
-  margin: 0px 200px;
+  margin: 0px 500px;
 }
 #slider-inner h1{
   margin-top: 0px;
