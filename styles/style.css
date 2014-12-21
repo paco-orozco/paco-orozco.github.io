@@ -126,7 +126,7 @@ input[type=text] {
 /* ------------ responsive form ------------ */
   @media (min-width: 375px) and (max-width: 1199px) {
     form {
-      border: none !important;
+      border-left: 0px !important;
       padding: none !important;
     }
     #banner-legend h1,
