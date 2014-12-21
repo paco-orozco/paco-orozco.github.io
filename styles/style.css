@@ -32,7 +32,7 @@ header p {
     header p {
       float: right;
       color: #575757;
-      padding: 0px 0px !important;
+      padding: 0px 0px;
       font-size: 75% !important;
     }
   }
@@ -124,7 +124,25 @@ input[type=text] {
   background-color: #8C5600;
 }
 /* ------------ responsive form ------------ */
-  @media (min-width: 375px) and (max-width: 1199px) {
+  @media (max-width: 767px) {
+    form {
+      border-left: 0px !important;
+      padding: none !important;
+    }
+    #banner-legend h1,
+    #banner-legend p {
+      padding: 0px 14px !important;
+    }
+    #first_name {
+      width:100% !important;
+      display:block !important;
+    }
+    #last_name {
+      width: 100% !important;
+      display: block !important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
     form {
       border-left: 0px !important;
       padding: none !important;
