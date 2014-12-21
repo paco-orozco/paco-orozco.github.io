@@ -57,28 +57,31 @@ header p {
   /* ---------------- responsive form ----------------- */
   @media (max-width: 767px) {
     #banner {
-      margin: 0px 0px !important;
+      margin: 0px -25px !important;
     }
     #banner-inner {
-      margin: 0px 0px !important;
+      margin: 0px 25px !important;
     }
   }
   @media (min-width: 768px) and (max-width: 991px) {
     #banner {
-      margin: 0px 0px !important;
+      margin: 0px -200px !important;
     }
     #banner-inner {
-      margin: 0px 0px !important;
+      margin: 0px 200px !important;
     }
   }
-  /*@media (min-width: 992px) and (max-width: 1199px) {
+  @media (min-width: 992px) and (max-width: 1199px) {
     #banner {
-      margin: 0px 0px !important;
+      margin: 0px -200px !important;
     }
-    #banner-legend {
-      margin: 0px 0px !important;
+    #banner-inner {
+      margin: 0px 200px;
     }
-  }*/
+    /*#banner-legend {
+      margin: 0px 45px !important;
+    }*/
+  }
 /* ----------------- / responsive form ------------------ */
 #banner-legend h1 {
   color: #fff;
@@ -193,10 +196,10 @@ input[type=text] {
 /* ---------------- header margin ----------------- */
   @media (max-width: 767px) {
     #slider {
-      margin: 0px 0px;
+      margin: 0px -25px;
     }
     #slider-inner {
-      margin: 0px 0px;
+      margin: 0px 25px;
     }
     #slider-inner h1 {
       margin-top: 20px !important;
@@ -204,16 +207,22 @@ input[type=text] {
   }
   @media (min-width: 768px) and (max-width: 991px) {
     #slider {
-      margin: 0px 0px;
+      margin: 0px -200px;
     }
     #slider-inner {
-      margin: 0px 0px;
+      margin: 0px 200px;
     }
     #slider-inner h1 {
       margin: 25px !important;
     }
   }
   @media (min-width: 992px) and (max-width: 1199px) {
+    #slider {
+      margin: 0px -200px;
+    }
+    #slider-inner {
+      margin: 0px 200px;
+    }
     #slider-inner h1 {
       margin: 0px !important;
     }
