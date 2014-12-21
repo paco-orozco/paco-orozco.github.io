@@ -169,6 +169,12 @@ input[type=text] {
       display: block !important;
     }
   }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    form {
+      border-left: 0px !important;
+      padding: none !important;
+    }
+  }
 /* ------------ slider ------------- */
 #slider {
   background-color: #e5e5e5;
