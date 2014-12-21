@@ -1,104 +1,84 @@
-<!DOCTYPE HTML>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>The Portfolio of Francisco Orozco</title>
-      <meta name="descripton"
-        content="View the projects of Francisco Orozco front end web developer"/>
-      <meta name="keywords"
-        content="web developer, front-end, front end, jr. developer, francisco orozco,
-        bay area, san francisco, san jose, graphic designer, javascript, ruby on rails"/>
-      <meta http-equiv="author"
-        content="Francisco Orozco"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <!-- ========================= linked stylesheets ============================ -->
-      <link href="stylesheets/layout.css" rel="stylesheet" type="text/css">
-      <link href="stylesheets/skeleton.css" rel="stylesheet" type="text/css">
-      <link href="stylesheets/base.css" rel="stylesheet" type="text/css">
-      <link href="stylesheets/grid.css" rel="stylesheet" type="text/css">
-      <script src="js/modernizr.custom.js"></script>
-  </head>
-  <body>
-    <div class="row">
-      <div id="landing">
-        <h1>Under Construction</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Move - UI Developer Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Lato Font -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <!-- stylesheets -->
+  <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+          <img class="image-responsive" src="img/logo.jpg" />
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 hidden-lg hidden-md">
+          <p><strong>Call 1.800.000.0000</strong></p>
+        </div>
       </div>
-      <div class="column_4 offset_4 text center">
-        <img src="images/road_worker-128.png">
-        <p>I'm hard at work. Portfolio will be up again soon with a groovy new look.</p>
+    </header>
+    <div class="row" id="banner">
+      <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 col-lg-offset-5 col-md-offset-6">
+        <div id="banner-legend">
+          <h1>Commissions are growing for those that move quickly!</h1>
+          <p>Learn how some top agents are getting up to 10% or more conversions from realtor.com&#174 internet leads.</p>
+          <div class="row">
+            <div class="col-lg-3 hidden-xs hidden-sm hidden-md" id="download-box">
+              <img class="center-block" src="img/download2_filled-25.png" />
+              <p>Download the Close and Leads Guide and share with your agents</p>
+              <img class="center-block" src="img/right-25.png" />
+            </div>
+            <div class="col-lg-9">
+              <form>
+                <input type="text" class="text" id="first_name" value="First Name">
+                <input type="text" class="text" id="last_name" value="Last Name">
+                <div class="clearfix"></div>
+                <input type="text" class="text" type="text" value="Email">
+                <input type="text" class="text" value="Phone">
+                <input type="submit" value="submit >>" class="center-block" id="submit">
+              </form>
+            </div>
+          </div><!-- end of inner row -->
+        </div>
       </div>
     </div>
-    <!-- <div class="container">
-      <div id="cbp-fbscroller" class="cbp-fbscroller">
-        <nav>
-          <a href="#fbsection1" class="cbp-fbcurrent">landing</a>
-          <a href="#fbsection2">about</a>
-          <a href="#fbsection3">projects</a>
-          <a href="http://www.linkedin.com/pub/francisco-orozco/89/387/798/" target="_blank">contact</a>
-        </nav>
-          <section id="fbsection1"></section>
-          <section id="fbsection2">
-            <div class="six columns offset-by-five">
-              <div id="content">
-                <h1> I like to Make things </h1>
-                <p> I have made images my entire life. When I was younger I thought that my profession was going to be as a penciller for comic books or as an illustrator for childrens book’s. I have always been attracted to visual images and more importantly I understand the power of images in culture and consumption. My love for the materials of pen and ink and other types of mediums has changed for the languages of the web. I now use HTML and CSS to communicate my ideas. I love the power of the internet and web applications. It is in this medium that I am allowed the opportunity to reach such a broad audience, something that is very difficult and limiting in the medium of paper. </p>
-                <h1> Technologies </h1>
-                <ul>
-                  <li><em>HTML5</em></li>
-                  <li><em>CSS</em></li>
-                  <li><em>Javascript</em></li>
-                  <li><em>Ruby</em></li>
-                  <li><em>Rails</em></li>
-                  <li><em>Git</em></li>
-                </ul>
-              </div>
-            </div>
-          </section>
-          <section id="fbsection3">
-            <div class="seven columns offset-by-five">
-              <h1> My Work </h1>
-              <div class="project">
-                <h1>Thirst-a-gram</h1>
-                <a href="http://thirst-a-gram.herokuapp.com" target="_blank">
-                  <img src="images/ex_1.png">
-                </a>
-                <p>This project resulted from my desire to merge technology with some form of
-                design. I used d3.js to build a typography collage from Instagram comments. The app is completely built on the client side and is a single page app. Just navigate to the desired image and watch as the comments are made into a visually pleasing result.Technologies used: Instagram API, Ruby on Rails, d3.js, jQuery, tuktuk.css, and AJAX.
-                </p>
-
-              </div>
-              <div class="project">
-                <h1>Bikeway</h1>
-                <a href="http://bikeway.herokuapp.com/" target="_blank">
-                  <img src="images/ex_2.png">
-                </a>
-                <p> This was my first experience working in a group and it resulted in an amazing app. The app not only has accident data from Bay citizen data, but it is able to crowd source accident or hazard information. This is an amazing tool that reports on the quality of bicycle routes and allows the user to be a part of the experience.Technologies used: Ruby on Rails, AJAX, Google Maps API, and Facebook/Twitter for authentication.</p>
-
-              </div>
-              <div class="project">
-                <h1>Precipitation</h1>
-                <a href="http://precipitation-activity.herokuapp.com/" target="_blank">
-                  <img src="images/ex_4.png">
-                </a>
-                <p> The second version of my initial Rnnr app, which gives weather conditions for runners. This is a Rails app and is a great foundation for future add-ons in potential version upgrades. I implemented the geo location API, which is native to HTML5, to automatically recognize the location data. I used jQuery AJAX to make another API request, which is all done on the client-side, to Weather Underground for the necessary data. I replaced the CSS framework Foundation with my own boiler-plate, with the purpose of having more control and singularity, all while maintaining the responsive elements of the app.</p>
-              </div>
-            <div>
-          </section>
+    <div class="row" id="slider">
+      <div id="slider-inner">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="embed-container">
+            <iframe src="http://www.youtube.com/embed/OLNMOM1fq2A" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <h1>Successfully Closing the Leads</h1>
+          <p><strong>Based on interviews with real estate professionals who close a high volume of online leads-</strong> we identified those who were sustaining small businesses and large teams almost exclusively on online leads and referrals. We compiled information through phone interviews and sharing best practices in our in-person seminars across the nation. We held panel discussions at the big conventions. </p>
+        </div>
       </div>
-    </div> -->
-    <!-- ========================= javascripts =========================== -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
-    <script src="js/jquery.easing.min.js"></script>
-    <!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
-    <script src="js/waypoints.min.js"></script>
-    <!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
-    <script src="js/jquery.debouncedresize.js"></script>
-    <script src="js/cbpFixedScrollLayout.min.js"></script>
-    <script>
-      $(function() {
-        cbpFixedScrollLayout.init();
-      });
-    </script>
-  </body>
-  </html>
+    </div><!-- end of first section -->
+    <div class="row" id="icons">
+      <h2>Here is what we learned that you can pass along to your agents</h2>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="img-rounded center-block"><img src="img/clock-32.png" /></div>
+        <p><strong>Response times made even a bigger difference than you may think.</strong> There were several techniques that are learnable and repeatable, which we published in the guide-- including handling new incoming leads when you are already with customers.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="img-rounded center-block"><img src="img/briefcase_filled-32.png" /></div>
+        <p><b>Preparation helps.</b> Ideas were exchanged on how to handle specific questions about a listing. Included is dialogue for your agents to buy time to re-group and properly prepare if they are not completely ready to take the inquiry.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+        <div class="img-rounded center-block"><img src="img/speech_bubble-32.png" /></div>
+        <p><strong>Communication needs to be relevant.</strong> Simple dialogue that is well timed and relates to the lead inquiry is not difficult to construct. Several examples of when to communicate and what to say are in this guide.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <h3>Questions?</h3>
+    <p>We are always glad to hear from you.</p>
+    <h2>Call us at 1.800.000.0000</h2>
+  </footer>
+</body>
+</html>

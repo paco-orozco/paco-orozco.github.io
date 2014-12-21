@@ -27,6 +27,15 @@ header p {
   color: #575757;
   float: right;
 }
+/* ------------ responsive header -------------- */
+@media (min-width: 375px) and (max-width: 767px) {
+    header p {
+      float: right;
+      color: #575757;
+      padding: 2px 0px;
+      font-size: 75% !important;
+    }
+  }
 /* ------------ banner ------------- */
 #banner {
   background: url(../img/banner.jpg) no-repeat center center fixed;
@@ -117,20 +126,20 @@ input[type=text] {
 /* ------------ responsive form ------------ */
   @media (min-width: 375px) and (max-width: 1199px) {
     form {
-      border: none;
-      padding: none;
+      border: none !important;
+      padding: none !important;
     }
     #banner-legend h1,
     #banner-legend p {
-      padding: 0px 14px;
+      padding: 0px 14px !important;
     }
     #first_name {
-      width:100%;
-      display:block;
+      width:100% !important;
+      display:block !important;
     }
     #last_name {
-      width: 100%;
-      display: block;
+      width: 100% !important;
+      display: block !important;
     }
   }
 /* ------------ slider ------------- */
