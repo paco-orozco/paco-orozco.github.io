@@ -1,0 +1,285 @@
+/* Global Reset */
+* { margin:0; padding:0; }
+
+/* define font options */
+html * {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Grid for layout */
+.container {
+  width: 100%;
+  max-width: 1900px;
+  min-width: 900px;
+}
+
+.row:before,
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.container * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  /* gutter space */
+  padding: 12px;
+  width: 16.6666666667%;
+}
+.col-sixth {
+  width: 16.6666666667%;
+}
+.col-half {
+  width: 50%;
+}
+.col-full {
+  width: 100%;
+}
+/* end of Grid */
+
+/* nav section */
+nav ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: .785em;
+  line-height: 40px;
+  margin-right: 29px;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+}
+
+/* Header Background Image */
+header {
+  width: 100%;
+  min-height: 675px;
+}
+
+.bg-img {
+  background-image: url("img/background.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1, h3 {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  font-weight: lighter;
+}
+
+header h1 {
+  font-size: 2.75em;
+}
+header h3 {
+  font-size: 1.65em;
+}
+
+.button {
+  text-decoration: none;
+  padding: 12px 48px;
+  border: 1px solid #4bb6da;
+  color: #4bb6da;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #4bb6da;
+  color: #fff;
+}
+
+.blue {
+  background-color: #4bb6da;
+  color: #fff;
+}
+
+.blue:hover {
+  background-color: #fff;
+  color: #4bb6da;
+}
+
+.body-nav {
+  width: 100%;
+  background-color: #f3f5f8;
+  font-weight: lighter;
+  color: #d2d3d6;
+}
+
+.body-nav .icon {
+  padding: 28px 0px;
+}
+
+.icon i {
+  color: #d2d3d6;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.current, .current.icon i {
+  color: #4bb6da;
+}
+
+.current, .body-nav .icon:hover {
+  border-bottom: 1px solid #4bb6da;
+}
+
+.video-section {
+  width: 100%;
+  padding: 72px 0px;
+}
+
+.video-section h4 {
+  font-weight: lighter;
+  font-size: 1.70em;
+  color: #0b2f4f;
+  margin: 14px 0px 18px 0px;
+}
+.video-section p, .video-section li {
+  color: #838899;
+  font-weight: lighter;
+  font-size: .85em;
+}
+
+.video-section p {
+  line-height: 26px;
+}
+
+.video-section ul {
+  list-style: none;
+  padding: 0px;
+  line-height: 36px;
+}
+
+.video-section ul li:before {
+  content: '- ';
+}
+
+/*responsive video */
+.embed {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.embed video, .embed object, .embed embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+form h3 {
+  display: inline;
+  font-size: 1.5em;
+  font-weight: lighter;
+  margin: 8px 14px 0px 0px;
+}
+
+form h3 strong {
+  font-weight: normal;
+}
+
+input[type="text"] {
+  height: 32px;
+  width: 156px;
+  border: none;
+  border-radius: 4px;
+  padding: 0px 9px;
+  margin: 0px 8px 0px 0px;
+}
+
+input[type="submit"]{
+  height: 32px;
+  width: 156px;
+  background-color: #2f333e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0px 9px;
+}
+.padding-md-top {
+  padding-top: 24px;
+}
+
+.padding-lg-top {
+  padding-top: 38px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.light-blue-bg {
+  background-color: #4bb6da;
+  padding: 34px;
+}
+.blue-bg {
+  background-color: #2f333e;
+  color: #fff;
+}
+.blue-bg p {
+  font-size: .675em;
+  margin: 5px 0px;
+}
+
+/* Modal Style */
+.modal {
+	position: absolute;
+	top:50%;right:0px;bottom:0px;left:0px;
+	margin: 0 auto;
+	display: none;
+	width: 300px;
+	height: 280px;
+	background-color: #fff;
+	border-radius: 3px;
+	border-top: 4px solid #4bb6da;
+	z-index: 50;
+	padding: 32px 22px 14px 22px;
+}
+
+.modal h2 {
+	font-family: 'Lato', sans-serif;
+  	color: #596678;
+  	font-weight: normal;
+	text-align:center;
+	font-size: 1.8em;
+}
+
+.modal p {
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: .825em;
+	 font-weight: normal;
+	 text-align:left;
+	 color: #596678;
+	 line-height: 23px;
+	 margin: 14px 12px 12px 0px;
+}
+
+.modal_close {
+	text-decoration: none;
+	font-size: .925em;
+	font-weight: bold;
+  	padding: 9px 36px;
+  	background-color: #4bb6da;
+  	color: #fff;
+  	border-radius: 5px;
+}
+
+
