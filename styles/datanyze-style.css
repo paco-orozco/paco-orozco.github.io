@@ -69,7 +69,7 @@ header {
 }
 
 .bg-img {
-  background-image: url("img/background.jpg");
+  background-image: url("../img/background.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
